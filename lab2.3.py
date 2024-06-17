@@ -9,9 +9,8 @@ if weight <= 0 or height <= 0:
 else:
 
     bmi = weight / (height ** 2)
-    bmi = round(bmi, 2)
 
-    print(f"BMI ของคุณคือ: {bmi}")
+    print("BMI ของคุณคือ: %.2f" %bmi)
 
     if bmi < 18.50:
         print("อยู่ในเกณฑ์: น้ำหนักน้อย / ผอม (มากกว่าค่ามาตรฐาน)")
